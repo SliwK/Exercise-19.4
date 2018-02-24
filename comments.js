@@ -24,16 +24,15 @@ export function comments(state = initialState, action) {
             });
         case THUMB_UP:
             return Object.assign({}, state,  {
-                comments: state.comments.find(comment => comment.id === action.id).votes += action.votes;
+                comments: state.comments.find(comment => comment.id === action.id).votes += action.votes
             });
         case THUMB_DOWN:
             return Object.assign({}, state,  {
-                comments: state.comments.find(comment => comment.id === action.id).votes -= action.votes;
+                comments: state.comments.find(comment => comment.id === action.id).votes -= action.votes
             });
         case EDIT_COMMENT:
             return Object.assign({}, state, {
-                comments: state.comments.find(comment => comment.id === action.id).text = action.text; 
-            }
+                comments: state.comments.find(comment => comment.id === action.id).text = action.text
             });
         default:
             return state;
