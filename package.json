@@ -1,0 +1,26 @@
+{
+  "name": "exercise-19.4",
+  "version": "1.0.0",
+  "description": "REDUX - wydzielanie reducera",
+  "main": "actions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SliwK/Exercise-19.4.git"
+  },
+  "keywords": [
+    "REDUX"
+  ],
+  "author": "Krzysztof Śliwiński",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SliwK/Exercise-19.4/issues"
+  },
+  "homepage": "https://github.com/SliwK/Exercise-19.4#readme",
+  "dependencies": {
+    "redux": "^3.7.2",
+    "uuid": "^3.2.1"
+  }
+}
